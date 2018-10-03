@@ -22,6 +22,7 @@
 		C67C9E7D2164CAF800029132 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E7C2164CAF800029132 /* GameModel.swift */; };
 		C67C9E802164CB3200029132 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E7F2164CB3200029132 /* GameViewModel.swift */; };
 		C67C9E832164CB8600029132 /* GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E822164CB8600029132 /* GameListViewController.swift */; };
+		C67C9E852164CFC700029132 /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E842164CFC700029132 /* GameListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		C67C9E7C2164CAF800029132 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		C67C9E7F2164CB3200029132 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		C67C9E822164CB8600029132 /* GameListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewController.swift; sourceTree = "<group>"; };
+		C67C9E842164CFC700029132 /* GameListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				C67C9E7F2164CB3200029132 /* GameViewModel.swift */,
+				C67C9E842164CFC700029132 /* GameListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				C67C9E832164CB8600029132 /* GameListViewController.swift in Sources */,
 				C67C9E432164C71E00029132 /* ViewController.swift in Sources */,
 				C67C9E702164C92900029132 /* APIService.swift in Sources */,
+				C67C9E852164CFC700029132 /* GameListViewModel.swift in Sources */,
 				C67C9E412164C71E00029132 /* AppDelegate.swift in Sources */,
 				C67C9E762164CA4400029132 /* ProjectExtensions.swift in Sources */,
 				C67C9E7D2164CAF800029132 /* GameModel.swift in Sources */,
