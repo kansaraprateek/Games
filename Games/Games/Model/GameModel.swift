@@ -7,6 +7,9 @@
 //
 
 import Foundation
+
+
+/// Game Model for storing and handling data temporary.
 class Game{
     
     var gameName : String? = nil

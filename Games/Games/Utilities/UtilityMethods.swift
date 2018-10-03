@@ -7,6 +7,8 @@
 //
 
 import Foundation
+
+/// Basic Utility mehtods to be used across the project.
 class UtilityMethods {
     
     //MARK:- Internet Reachability

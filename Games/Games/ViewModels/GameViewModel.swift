@@ -7,6 +7,9 @@
 //
 
 import Foundation
+
+
+/// Game View Model class for holding UI data for each game view.
 class GameViewModel: NSObject{
     
     var id : String?

@@ -9,8 +9,13 @@
 import Foundation
 import UIKit
 
+
+/// Tags for activity loader showing while image is been downlaoded.
 private let activityTag = 12011992
 private let activitySize : CGFloat = 20
+
+
+// MARK: - UIIMageView extension for storing and showing the image from the URL. And put a temporary image while it downloads.
 extension UIImageView{
     
     /**

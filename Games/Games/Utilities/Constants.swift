@@ -8,6 +8,8 @@
 
 import Foundation
 
+/// Constant class for all the static content to be used throughout the project.
+
 struct Cells {
     static let game = "GameTableViewCell"
 }
