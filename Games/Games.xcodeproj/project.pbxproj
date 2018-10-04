@@ -23,6 +23,9 @@
 		C67C9E802164CB3200029132 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E7F2164CB3200029132 /* GameViewModel.swift */; };
 		C67C9E832164CB8600029132 /* GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E822164CB8600029132 /* GameListViewController.swift */; };
 		C67C9E852164CFC700029132 /* GameListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E842164CFC700029132 /* GameListViewModel.swift */; };
+		C67C9E882164E8B700029132 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E872164E8B700029132 /* TableViewDataSource.swift */; };
+		C67C9E8B2164E94D00029132 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E8A2164E94D00029132 /* GameTableViewCell.swift */; };
+		C67C9E902165E3C600029132 /* PKStatusBarLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C9E8F2165E3C500029132 /* PKStatusBarLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		C67C9E7F2164CB3200029132 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		C67C9E822164CB8600029132 /* GameListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewController.swift; sourceTree = "<group>"; };
 		C67C9E842164CFC700029132 /* GameListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListViewModel.swift; sourceTree = "<group>"; };
+		C67C9E872164E8B700029132 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		C67C9E8A2164E94D00029132 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		C67C9E8F2165E3C500029132 /* PKStatusBarLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKStatusBarLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 		C67C9E3F2164C71E00029132 /* Games */ = {
 			isa = PBXGroup;
 			children = (
+				C67C9E912165E3C800029132 /* Support Library */,
+				C67C9E892164E94000029132 /* Table Cells */,
+				C67C9E862164E8A900029132 /* Data Source */,
 				C67C9E812164CB7200029132 /* ViewController */,
 				C67C9E7E2164CB2300029132 /* ViewModels */,
 				C67C9E7B2164CADB00029132 /* Model */,
@@ -190,6 +199,30 @@
 				C67C9E822164CB8600029132 /* GameListViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C67C9E862164E8A900029132 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				C67C9E872164E8B700029132 /* TableViewDataSource.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		C67C9E892164E94000029132 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C67C9E8A2164E94D00029132 /* GameTableViewCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		C67C9E912165E3C800029132 /* Support Library */ = {
+			isa = PBXGroup;
+			children = (
+				C67C9E8F2165E3C500029132 /* PKStatusBarLoader.swift */,
+			);
+			path = "Support Library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,13 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67C9E8B2164E94D00029132 /* GameTableViewCell.swift in Sources */,
 				C67C9E802164CB3200029132 /* GameViewModel.swift in Sources */,
 				C67C9E7A2164CA7600029132 /* Reachability.swift in Sources */,
 				C67C9E832164CB8600029132 /* GameListViewController.swift in Sources */,
 				C67C9E432164C71E00029132 /* ViewController.swift in Sources */,
 				C67C9E702164C92900029132 /* APIService.swift in Sources */,
 				C67C9E852164CFC700029132 /* GameListViewModel.swift in Sources */,
+				C67C9E882164E8B700029132 /* TableViewDataSource.swift in Sources */,
 				C67C9E412164C71E00029132 /* AppDelegate.swift in Sources */,
+				C67C9E902165E3C600029132 /* PKStatusBarLoader.swift in Sources */,
 				C67C9E762164CA4400029132 /* ProjectExtensions.swift in Sources */,
 				C67C9E7D2164CAF800029132 /* GameModel.swift in Sources */,
 				C67C9E742164CA3500029132 /* UtilityMethods.swift in Sources */,

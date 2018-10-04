@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class GamesListViewModel : NSObject {
+class GameListViewModel : NSObject {
     
     private var webservice : APIService
     @objc dynamic private(set) var gameViewModels : [GameViewModel] = [GameViewModel]()

@@ -18,13 +18,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTableViewCell" rowHeight="130" id="a50-gg-aiA">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTableViewCell" rowHeight="130" id="a50-gg-aiA" customClass="GameTableViewCell" customModule="Games" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a50-gg-aiA" id="Tmh-yi-NHt">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u3j-wX-xYf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecd-pH-sHu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="0.24799185739436619" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="u3j-wX-xYf" secondAttribute="trailing" id="5CV-0f-xHb"/>
+                                        <constraint firstItem="u3j-wX-xYf" firstAttribute="leading" secondItem="Tmh-yi-NHt" secondAttribute="leading" id="5g4-FM-s4u"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ecd-pH-sHu" secondAttribute="trailing" id="Dwa-Mn-yZo"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ecd-pH-sHu" secondAttribute="bottom" id="Twl-07-4cB"/>
+                                        <constraint firstAttribute="bottom" secondItem="u3j-wX-xYf" secondAttribute="bottom" id="hAQ-YQ-FpR"/>
+                                        <constraint firstItem="Ecd-pH-sHu" firstAttribute="top" secondItem="Tmh-yi-NHt" secondAttribute="top" id="igG-0B-aaB"/>
+                                        <constraint firstItem="Ecd-pH-sHu" firstAttribute="leading" secondItem="Tmh-yi-NHt" secondAttribute="leading" id="umJ-jS-zJw"/>
+                                        <constraint firstItem="u3j-wX-xYf" firstAttribute="top" secondItem="Tmh-yi-NHt" secondAttribute="top" id="wBt-Pq-uzL"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="backgroundImageView" destination="u3j-wX-xYf" id="tEf-zk-Mdn"/>
+                                    <outlet property="nameLabel" destination="Ecd-pH-sHu" id="nRW-ca-4SY"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
